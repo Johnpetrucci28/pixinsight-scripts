@@ -146,24 +146,6 @@ var SCRIPTS = [
     repo: "https://github.com/Johnpetrucci28/Generative_stamp_for_pixinsight"
   },
   {
-    id: "ForaxxPaletteV2",
-    name: "Foraxx Palette V2",
-    category: "couleur",
-    tagline: "La palette Foraxx, avec aperçu en direct et réglages fins.",
-    summary: "Version enrichie du script Foraxx Palette de Paul Hancock. Produit la palette Foraxx à partir d'images Hα / OIII / SII étirées et sans étoiles, avec un aperçu en direct et des réglages de poids, saturation et teinte.",
-    features: [
-      "Aperçu en direct",
-      "Poids Hα / OIII / SII réglables",
-      "Saturation et teinte réglables",
-      "Version étoiles optionnelle (Foraxx_stars)"
-    ],
-    menu: "Script › Utilities › ForaxxPaletteV2",
-    requires: "PixInsight 1.8.9+",
-    version: "2.0",
-    license: "Selon la licence du script d'origine",
-    origin: "Fork — d'après Paul Hancock (2023)"
-  },
-  {
     id: "CanonBandingReduction",
     name: "Canon Banding Reduction 0.9.4",
     category: "correction",

@@ -7,7 +7,6 @@ Scripts PixInsight gratuits d'AstrOlivier, et le site qui les présente :
 |---|---|---|
 | SpectralStarMix | Couleur | Script › Utilities › SpectralStarMix |
 | Mix Hα + Luminance | Couleur | Script › Execute Script File… |
-| Foraxx Palette V2 (fork) | Couleur | Script › Utilities › ForaxxPaletteV2 |
 | Fusion de masques (max) | Masques | Script › Utilities › FusionMasquesMax |
 | DrizzleStack | Empilement | Script › Execute Script File… |
 | BatchSaveWorkspace | Utilitaires | Script › Utilities › BatchSaveWorkspace |
@@ -36,6 +35,6 @@ lancer `tools/build-zips.ps1`, puis commit et push.
 
 Mes propres scripts sont sous **licence MIT** (fichier `LICENSE` dans chaque dossier).
 Les forks gardent la licence et le copyright de leur auteur d'origine :
-Canon Banding Reduction (Georg Viehoever, GPL v3), Foraxx Palette (Paul Hancock).
+Canon Banding Reduction (Georg Viehoever, GPL v3).
 
 PixInsight est une marque de Pleiades Astrophoto S.L.
