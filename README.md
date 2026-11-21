@@ -34,7 +34,7 @@ lancer `tools/build-zips.ps1`, puis commit et push.
 
 ## Licences
 
-Chaque script a sa propre licence, indiquée dans son dossier et sur sa fiche.
+Mes propres scripts sont sous **licence MIT** (fichier `LICENSE` dans chaque dossier).
 Les forks gardent la licence et le copyright de leur auteur d'origine :
 Canon Banding Reduction (Georg Viehoever, GPL v3), Foraxx Palette (Paul Hancock).
 

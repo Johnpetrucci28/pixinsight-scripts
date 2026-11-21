@@ -30,7 +30,7 @@ var SCRIPTS = [
     menu: "Script › Utilities › SpectralStarMix",
     requires: "PixInsight 1.8.9+",
     version: "1.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création"
   },
   {
@@ -48,7 +48,7 @@ var SCRIPTS = [
     menu: "Script › Execute Script File…",
     requires: "PixInsight 1.9+ (moteur V8)",
     version: "1.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création"
   },
   {
@@ -66,7 +66,7 @@ var SCRIPTS = [
     menu: "Script › Utilities › FusionMasquesMax",
     requires: "PixInsight 1.8.9+",
     version: "1.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création"
   },
   {
@@ -85,7 +85,7 @@ var SCRIPTS = [
     menu: "Script › Execute Script File…",
     requires: "PixInsight 1.9.6+, StarAlignment avec « Generate drizzle data »",
     version: "1.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création"
   },
   {
@@ -103,7 +103,7 @@ var SCRIPTS = [
     menu: "Script › Utilities › BatchSaveWorkspace",
     requires: "PixInsight 1.9+ (moteur V8)",
     version: "1.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création"
   },
   {
@@ -122,7 +122,7 @@ var SCRIPTS = [
     menu: "Script › PixInk › Pinceau",
     requires: "PixInsight 1.9+ (moteur V8)",
     version: "1.0.0",
-    license: "Tous droits réservés (licence à venir)",
+    license: "MIT",
     origin: "Création",
     repo: "https://github.com/Johnpetrucci28/PixInk"
   },

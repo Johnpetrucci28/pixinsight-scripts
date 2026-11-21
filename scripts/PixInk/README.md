@@ -55,5 +55,4 @@ read back.
 
 ## License
 
-No license file is included yet -- all rights reserved by default until a license is
-chosen.
+Released under the MIT License -- see `LICENSE`.
