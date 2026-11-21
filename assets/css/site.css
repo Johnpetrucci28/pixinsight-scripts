@@ -1,4 +1,4 @@
-/* Charte reprise d'AstrOlivier (astrolivier.pages.dev) */
+/* Charte AstrOlivier */
 :root {
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Inter", system-ui, -apple-system, sans-serif;
@@ -41,7 +41,8 @@ code, kbd { font-family: var(--font-mono); font-size: .86em; background: var(--s
 .nav a:hover { opacity: 1; }
 .nav .nav-ext { color: var(--gold-ink); opacity: .9; }
 @media (max-width: 760px) {
-  .nav a:not(.nav-ext) { display: none; }
+  .nav { gap: 14px; font-size: .64rem; letter-spacing: .14em; }
+  .nav a[href="#apropos"], .nav a[href="#installation"] { display: none; }
 }
 @media (max-width: 640px) {
   :root { --header-h: 64px; }
