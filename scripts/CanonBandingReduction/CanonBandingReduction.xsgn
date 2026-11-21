@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+PixInsight XML Code Signature Format - XSGN version 1.0
+Created with PixInsight software - https://pixinsight.com/
+-->
+<xsgn version="1.0" xmlns="http://www.pixinsight.com/xsgn" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xsgn http://pixinsight.com/xsgn/xsgn-1.0.xsd">
+   <CreationTime>2025-04-02T16:51:58.595Z</CreationTime>
+   <Signature version="1.0" scriptId="CanonBandingReduction" developerId="PTeam">
+      <Timestamp>2025-04-02T16:51:58.595Z</Timestamp>
+      <CodeSignature encoding="Base64">bTwFf40tDJSPTBfBKynUs2qZh5r/UhcWSsZUNaYgTF0xhPP6cQEZ9IaZ0rvp1b8VyUC83uRntmbT9sNyeKLSBw==</CodeSignature>
+   </Signature>
+</xsgn>

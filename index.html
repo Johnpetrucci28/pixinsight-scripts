@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>AstrOlivier — Scripts PixInsight</title>
+  <meta name="description" content="Scripts PixInsight gratuits d'AstrOlivier : couleur des étoiles, masques, empilement drizzle, pinceau, tampon génératif.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Inter:wght@400;500&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="AstrOlivier Scripts, haut de page">
+      <span class="brand-name" aria-hidden="true">Astr<i class="galaxy" data-galaxy></i>livier</span>
+      <span class="brand-tag">Scripts PixInsight</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#scripts">Scripts</a>
+      <a href="#installation">Installation</a>
+      <a href="#apropos">À propos</a>
+      <a class="nav-ext" href="https://astrolivier.pages.dev/" target="_blank" rel="noopener">Galerie ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <canvas id="starfield" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <span class="eyebrow">Atelier · <span id="count">9</span> scripts libres</span>
+        <h1>Des outils nés<br>de <em>longues nuits</em>.</h1>
+        <p>Les scripts PixInsight que j'écris pour mes propres traitements, partagés gratuitement : couleur des étoiles, masques, empilement, retouche.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#scripts">Voir les scripts</a>
+          <a class="btn btn-ghost" href="#installation">Comment les installer</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="scripts" aria-labelledby="scripts-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow astro">Catalogue</span>
+          <h2 id="scripts-title">Les scripts</h2>
+        </div>
+        <div class="chips" id="chips" role="group" aria-label="Filtrer par catégorie"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <div class="galaxy-sep"></div>
+
+    <section class="section" id="installation" aria-labelledby="install-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow astro">Mode d'emploi</span>
+          <h2 id="install-title">Installation</h2>
+          <p class="section-lead">Trois minutes, une seule fois par script.</p>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>Télécharger</h3>
+          <p>Ouvrez la fiche du script et cliquez sur <strong>Télécharger</strong>. Décompressez le dossier où vous rangez vos scripts, par exemple <code>Documents/PixInsight/scripts</code>.</p>
+        </div>
+        <div class="step">
+          <h3>Déclarer le dossier</h3>
+          <p>Dans PixInsight : <code>Script › Feature Scripts…</code>, puis <strong>Add</strong>, choisissez le dossier, et <strong>Done</strong>. Le script apparaît dans le menu indiqué sur sa fiche.</p>
+        </div>
+        <div class="step">
+          <h3>Ou l'exécuter directement</h3>
+          <p>Sans installation : <code>Script › Execute Script File…</code> puis sélectionnez le fichier <code>.js</code>. Pratique pour un essai.</p>
+        </div>
+      </div>
+      <p class="note">Les scripts marqués « moteur V8 » demandent PixInsight 1.9 ou plus récent. IA Stamp a aussi besoin de Python : le guide <code>INSTALLATION_PYTHON.md</code> est fourni dans son archive.</p>
+    </section>
+
+    <div class="galaxy-sep"></div>
+
+    <section class="section" id="apropos" aria-labelledby="about-title">
+      <span class="eyebrow astro">Derrière les scripts</span>
+      <h2 id="about-title">À propos</h2>
+      <div class="about">
+        <p>Je suis <strong>Olivier</strong>, photographe et astrophotographe. Ces scripts sont nés de besoins concrets, rencontrés au fil de mes propres traitements, quand l'outil qui convenait n'existait pas.</p>
+        <p>Ils sont gratuits. Le code source est sur <a class="link" href="https://github.com/Johnpetrucci28/pixinsight-scripts" target="_blank" rel="noopener"><strong>GitHub</strong></a> : un bug, une idée, une amélioration ? Ouvrez une <em>issue</em>, c'est le meilleur moyen de me le dire.</p>
+        <p>Les forks (Foraxx Palette V2, Canon Banding Reduction) restent sous la licence de leurs auteurs d'origine, cités sur chaque fiche.</p>
+        <div><a class="btn btn-ghost" href="https://astrolivier.pages.dev/astro.html" target="_blank" rel="noopener">Voir mes photos du ciel profond ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="https://astrolivier.pages.dev/" target="_blank" rel="noopener" aria-label="AstrOlivier, site photo">
+      <span class="footer-brand-name" aria-hidden="true">Astr<i class="galaxy" data-galaxy></i>livier</span>
+      <span class="footer-brand-tag">Photographe &amp; astrophotographe</span>
+    </a>
+    <span>© <span id="year">2026</span> AstrOlivier · PixInsight est une marque de Pleiades Astrophoto S.L.</span>
+    <nav aria-label="Liens">
+      <a href="https://github.com/Johnpetrucci28/pixinsight-scripts" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://astrolivier.pages.dev/" target="_blank" rel="noopener">Galerie photo</a>
+    </nav>
+  </footer>
+
+  <div class="sheet-overlay" id="sheet-overlay"></div>
+  <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" aria-hidden="true">
+    <button class="sheet-close" type="button" aria-label="Fermer la fiche">×</button>
+    <div id="sheet-body"></div>
+  </aside>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/starfield.js"></script>
+</body>
+</html>
